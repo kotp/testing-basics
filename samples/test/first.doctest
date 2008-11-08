@@ -1,0 +1,25 @@
+The following test is simply to prove that we indeed we have the files to load.
+doctest: Files do exist that we need.
+>> require '../lib/first'
+=> true
+
+These first two are simple tests, just to show that the tests are simply IRB lines.
+doctest: make assignments to x and y
+>> x = true
+=> true
+>> y = false
+=> false
+doctest: assign z to x or y
+>> z = x or y
+=> true
+>> x
+=> true
+>> y
+=> false
+>> z
+=> true
+
+doctest: Test a simple method.
+>> hello
+=> "Hello World!"
+
