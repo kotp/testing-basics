@@ -18,3 +18,9 @@ so for me that means that someone who takes this course does not
 know anything to testing, hence what is the purpose to ask those 
 questions. I, for example, will answer none, I don't know, I 
 cannot, I cannot, I cannot, I cannot in order.
+
+Second remark:
+Which unit testing tools will we use?
+Which one is the most appropriate to begin with.
+Hopefully we will not introduce too much tools, so that each tool
+could be taught and, more importantly, learnt in depth.
