@@ -10,3 +10,11 @@ Copyright 2008 rubylearning.org and contributing authors.
 + Explain Unit Testing in your own words.
 + Comment on Unit Testing == TDD.
 + What are the "rules" (best-practices) for coding Unit Tests?
+
+
+Remarks:
+Something is strange for me. The course is named Testing Basics, 
+so for me that means that someone who takes this course does not 
+know anything to testing, hence what is the purpose to ask those 
+questions. I, for example, will answer none, I don't know, I 
+cannot, I cannot, I cannot, I cannot in order.
