@@ -2,11 +2,11 @@
 ## Testing Basics
 Copyright 2008 rubylearning.org and contributing authors.
 
-
-
-+ What kinds of testing "levels" you know of?
-+ What are the differences between those levels?
-+ Explain TDD in your own words.
+# Objectives of this lesson:
+You will be able to answer the following:
++ What kinds of testing "levels" you know of? 
++ What are the differences between those levels? 
++ Explain TDD in your own words.  
 + Explain Unit Testing in your own words.
 + Comment on Unit Testing == TDD.
 + What are the "rules" (best-practices) for coding Unit Tests?
