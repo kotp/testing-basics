@@ -24,3 +24,6 @@ Which unit testing tools will we use?
 Which one is the most appropriate to begin with.
 Hopefully we will not introduce too much tools, so that each tool
 could be taught and, more importantly, learnt in depth.
+
+Third remark:
+Let's begin by the beginning: rubydoctest.
