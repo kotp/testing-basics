@@ -19,7 +19,7 @@ I will be using the short or '--simple-prompt' mode for this discussion.
 OK, so it is so cliche, by now... but who am I to change things?
 
 go ahead and type the following at your IRB prompt...
-    >>'Hello world!'
+    >> 'Hello world!'
     => "Hello world!"
 
 Note that the => means what is *returned*.
