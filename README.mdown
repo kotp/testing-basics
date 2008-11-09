@@ -1,8 +1,8 @@
 ### A rubylearning.org Course
-# Testing Basics
+## Testing Basics
 Copyright 2008 rubylearning.org and contributing authors.
 
-## Objectives of this lesson:
+# Objectives of this lesson:
 You will be able to answer the following:
 + What kinds of testing "levels" you know of? 
 + What are the differences between those levels? 
@@ -10,19 +10,6 @@ You will be able to answer the following:
 + Explain Unit Testing in your own words.
 + Comment on Unit Testing == TDD.
 + What are the "rules" (best-practices) for coding Unit Tests?
-
-## Top level course contents and prerequisites
-
-### Prerequisits
-
-1. Ruby Core
-2. gem
-3. irb
-4. History behind Test::Unit and why is in Standard Library
-5. ZenTest
-6. flog/heckle - Windows is a problem, indeed
-7. rubydoctest
-8. test-spec/spec-unit
 
 
 Remarks:
