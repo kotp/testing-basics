@@ -25,3 +25,5 @@
   end
       
   24.times{|h| print position(h).inspect + ', '}
+  puts
+
