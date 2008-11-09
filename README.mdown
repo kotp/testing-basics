@@ -18,6 +18,9 @@ You will be able to answer the following:
 1. Ruby Core
 2. gem
 3. irb
+
+### Course Broad Outline
+
 4. History behind Test::Unit and why is in Standard Library
 5. ZenTest
 6. flog/heckle - Windows is a problem, indeed
@@ -40,3 +43,4 @@ could be taught and, more importantly, learnt in depth.
 
 Third remark:
 Let's begin by the beginning: rubydoctest.
+
