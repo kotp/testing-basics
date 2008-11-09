@@ -1,0 +1,58 @@
+## IRB Short Intro
+
+Using IRB with Ruby makes sense for when you are trying to test ideas.
+
+To start using IRB it is pretty straight forward.  You can type the command 'irb' at the console... like this:
+
+    irb
+    >>
+
+If you do not have the --simple-prompt option activated, you will see something more like this:
+
+    irb
+    irb(main):001:0>
+
+I will be using the short or '--simple-prompt' mode for this discussion.
+
+###First Exercise: Hello World!
+
+OK, so it is so cliche, by now... but who am I to change things?
+
+go ahead and type the following at your IRB prompt...
+    >>'Hello world!'
+    => "Hello world!"
+
+Note that the => means what is *returned*.
+
+If we had requested output instead of a simple return, our outcome would have been different.
+
+    >> puts 'Hello world!'
+    Hello world!
+    => nil
+
+So, what are we seeing here?
++ Our command at the '>>' prompt.
+++ In this case the result of the method puts (not the return) which is a printed message to screen (STDOUT) of Hello World!.
++ And finally we see the return of the line.
+
+Let's get a couple other samples in here, and then it will be up to you to experiment, and ask questions of IRB.  Further questions, of course, can be asked in our forums. [Ruby Learning](http://rubylearning.org)
+
+Here we go:
+
+    >> 1 == 1
+    => true
+    >> 1 == 2
+    => false
+    >> 99 & 1
+    => 1
+    >> 50 & 1
+    => 0
+
+Have fun, experiment, learn.
+
+To exit from IRB, simply type exit at the prompt.
+  
+One last thing... if you do get stuck in here (which happens sometimes for non-matching quites, or parenthesis, or blocks, etc....) you can try pressing CTRL-C or CTRL-D.  If you are not stuck, and simply want to quit out of IRB you can enter the command 'exit' without quotes.
+A
+A
+

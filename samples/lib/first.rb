@@ -4,6 +4,6 @@
 # Use first.doctest to ensure nothing has changed in any methods created here.
 
 def hello
-  return 'Hello World!'
+  'Hello World!'
 end
 

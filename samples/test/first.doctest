@@ -1,5 +1,5 @@
 The following test is simply to prove that we indeed we have the files to load.
-doctest: Files do exist that we need.
+doctest: Files do exist that we need, and/or were not previously 'required'.
 >> require '../lib/first'
 => true
 
