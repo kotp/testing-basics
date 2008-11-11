@@ -53,5 +53,5 @@ Have fun, experiment, learn.
 
 To exit from IRB, simply type exit at the prompt.
   
-One last thing... if you do get stuck in here (which happens sometimes for non-matching quites, or parenthesis, or blocks, etc....) you can try pressing CTRL-C or CTRL-D.  If you are not stuck, and simply want to quit out of IRB you can enter the command 'exit' without quotes.
+One last thing... if you do get stuck in here (which happens sometimes for non-matching quotes, or parenthesis, or blocks, etc....) you can try pressing CTRL-C or CTRL-D.  If you are not stuck, and simply want to quit out of IRB you can enter the command 'exit' without quotes.
 
