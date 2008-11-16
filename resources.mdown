@@ -1,0 +1,5 @@
+# Resources
+
+* [Following Kent Beck's "Test Driven Development: By Example" using Ruby.](http://hiki.fkino.net/?TDD_on_Ruby)
+
+* ["Test Driven Development: By Example" By Kent Beck](http://books.google.com/books?id=gFgnde_vwMAC)
