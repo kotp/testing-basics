@@ -1,0 +1,98 @@
+# Draft on the course schedule
+
+TODO: Takaaki doesn't know ZenTest very well.
+
+NOTE: Avoided SpecUnit. test/spec is more popular. Even merb supports it. The last update of SpecUnit is in 2006.
+
+NOTE: Mock and Stub are not covered. Maybe we can include them. Or we can save them for another course.
+
+## Concepts on testing: What's testing? (Day 1)
+
+### Levels
+
+* unit testing
+* functional testing
+* integration testing
+* system testing
+* system integration testing
+
+### Other kinds of testing
+
+* regression testing
+* black box testing vs white box testing(including code coverage)
+
+### Quiz for vocabs
+
+### Discussion
+
+Some questions to make students to think. Give some open questions.
+
+* Why are you interested in learning testing?
+* TODO: More questions
+
+## TDD (Day 2)
+
+* Why we test? What's the benefit of test-fisrt vs test-later?
+* Do we still need to debug?
+* Why we write test first?
+* What's KISS?
+* What's YAGNI
+* What's refacotor? When do you do that?
+* http://rubylearning.org/class/mod/forum/discuss.php?d=1359&parent=21103
+* Introduce `rubydoctest`
+* EXERCISES that use `rubydoctest`
+  
+## Testing in Ruby (Test::Unit) (Day 3, 4, 5)
+
+* Introduce Test::Unit and its history. Why is in Standard Library.
+* Test::Unit is xUnit compatible.
+* <http://www.ruby-doc.org/stdlib/libdoc/test/unit/rdoc/classes/Test/Unit.html>
+* What's assertion?
+* Explain 1/3 of the assert mehtods
+* EXERCISES using the methods learned
+* Review eql? and equel? in Ruby
+* Explain 1/3 of the assert methods
+* EXERCISES using the methods learned
+* Review exceptions in Ruby
+* Explain the rest of the assert methods.
+* EXERCISES using the methods learned
+* OPTIONAL: Some methods only available in Rails
+
+## Solving TDD problems 5 days (Day 6, 7, 8, 9, 10)
+
+* Introduce `setup` and `teardown`.
+* Solve the TDD problems. Maybe 2 or 3 problems. <http://sites.google.com/site/tddproblems/>
+* Introduce `rcov` to check if the user's code coverage is perfect or not.
+
+## test/spec (Day 11, 12)
+
+* Introduce test/spec
+* DISCUSSION on why people some people prefer "spec"
+* DISCUSSION on testing vs behavior
+* EXERCISES. Use test/spec to solve one of the few problems you solved in TDD problems
+* <http://rubylearning.org/class/mod/forum/discuss.php?d=1359&parent=21048>
+
+## Other tools (Day 13)
+
+* `roodi`, `reek`, `flog` to help refactor
+* Do the tool help you testing?
+* Have you installed successfully?
+* Do you understand how to read the output?
+
+## Further directions (Finaly Day, Day 14)
+
+* Ask users what you think about testing now.
+* What's your percepton about testing now?
+* Now do you like code without test or with test?
+* Do you want to write test code before implementation code?
+
+QUIZ: Can we use final quiz to collect feedback about the course?
+
+-- 
+
+* Mock and Stub were not covered in this course.
+* RSpec was not coverd in this course. `test/spec` is something close to RSpec. I hope you will have a good start.
+* Rails extends Test::Unit
+* We didn't cover what you develop. If you develop with Rails or Merb, use them to test controller, models and views. If you writing gem or any other scripts, you can use Test::Unit right away.
+* Write more tests!
+
