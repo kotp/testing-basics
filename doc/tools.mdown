@@ -1,0 +1,88 @@
+TODO: This is just a memo rather than part of the textbook.
+
+# Tools for testing and code analysis
+
+## Test::Unit
+
+* Comes with Ruby
+* Rails extends Test::Unit
+
+## ZenTest
+
+* testing on steroids
+* <http://www.zenspider.com/ZSS/Products/ZenTest/>
+* Comes tih zentest, unit\_diff, autotest, Test::Rails
+
+## test/spec
+
+* <http://test-spec.rubyforge.org/test-spec/>
+* test/spec layers an RSpec-inspired interface on top of Test::Unit, so you can mix TDD and BDD (Behavior-Driven Development). test/spec is a clean-room implementation that maps most kinds of Test::Unit assertions to a `should’-like syntax.
+
+## spec/unit
+
+* SpecUnit is an extension to Test::Unit that allows tests to be grouped into contexts. The idea of contexts comes from rSpec, which is a BDD framework for Ruby. rSpec is a great testing framework, but I built SpecUnit out of the desire to make use of tools already in existence for Test::Unit and to provide a lightweight means of making use of contexts.
+* http://spec-unit.rubyforge.org/
+
+## flay
+
+* <http://ruby.sadi.st/Flay.html>
+* Flay analyzes ruby code for structural similarities. Differences in literal values, names, whitespace, and programming style are all ignored. Code that flay reports as similar is a good candidate for refactoring.
+
+
+## flog
+
+* <http://ruby.sadi.st/Flog.html>
+* Flog shows you the most torturous code you wrote. The more painful the code, the higher the score. The higher the score, the harder it is to test.
+
+## rubydoctest
+
+* Ruby DocTest is a tool that lets you put irb-style tests in your documentation. It’s similar to Python’s doctest, but different in several ways.
+* <http://github.com/tablatom/rubydoctest/tree/master>
+* <http://github.com/tablatom/rubydoctest/wikis>
+* <http://www.vimeo.com/1062921?pg=embed&sec=1062921>
+
+## reek
+
+* <http://github.com/kevinrutherford/reek/tree/master>
+* <http://reek.rubyforge.org/>
+* Reek is a tool that examines Ruby classes, modules and methods and reports any code smells it finds.
+
+## heckcle
+
+* <http://ruby.sadi.st/Heckle.html>
+* Think you write good tests? Not bloody likely... Put it to the test with heckle. It’ll put your code into submission in seconds.
+
+
+## rcov
+
+* <http://eigenclass.org/hiki.rb?rcov>
+* rcov is a code coverage tool for Ruby. It is commonly used for viewing overall test coverage of target code.
+
+## roodi
+
+* <http://github.com/martinjandrews/roodi/tree/master>
+* Roodi stands for Ruby Object Oriented Design Inferometer.  It parses your Ruby code and warns you about design issues you have based on the checks that is has configured.
+
+## dust
+
+* <http://github.com/kevinclark/dust/tree/master>
+* Dust is intended to be a customizable, programmable, static checker for Ruby. I’ve been focusing on getting basic checks working, but there should probably be a script to actually run against a codebase sooner than later, and then reporting code.
+
+## RSpec
+
+* <http://rspec.info/>
+* RSpec on Rails extends RSpec for Rails
+
+### Spec Framework
+
+* This is what we call RSpec. `it`...`do`
+
+### Scenario Framework (Cucumber)
+
+* Recently renewed. It used to be called "Story Framework"
+
+# Notes on Merb
+
+>Merb is testing-framework-agnostic: you can use Test::Unit, Rspec, or test/spec. All three testing frameworks have built-in support for mock objects that allow you to micro-target your tests exactly as you like. And because Merb is so modular, it’s easy to test your controller without a request object at all, if you’d want to.
+
+* <http://www.merbivore.com/features.html#tests>
