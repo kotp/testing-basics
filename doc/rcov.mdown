@@ -1,0 +1,9 @@
+# rcov (code coverage for Ruby)
+
+* What is code coverage?
+* How to install rcov?
+* How to use rcov?
+* How to read the output?
+* What is the limitation of rcov? <http://eigenclass.org/hiki.rb?rcov#l15> Don't talk about this too much. But let users know that rcov is not perfect.
+* Link to the official website. <http://eigenclass.org/>
+* Don't introduce every usage. Reporting to XHTML files is fine. Mention `rcov --help` to give users a chance to explore on their own (if they have time.)

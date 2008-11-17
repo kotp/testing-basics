@@ -1,0 +1,47 @@
+# Assert Methods
+
+## Whats is Assertion?
+
+TODO: Write what "assert" means. Basically expects true.
+
+## List
+
+Here is a list of methods available in Test::Unit. See [Rdoc](http://ruby-doc.org/stdlib/libdoc/test/unit/rdoc/classes/Test/Unit/Assertions.html) for complete explanation. (Ruby on Rails extends Test::Unit and has its own assertions. See [this guide](http://guides.rubyonrails.org/testing_rails_applications.html#_rails_specific_assertions) for details. If you have experience with testing with these assertions, do not confused with assertions only available in Rails.) Disclaimar: This course does not deal with assertions in Rails, but we hope that a solid understanding of assertions Ruby's standard library provides gives you a better understanding when you actually dive into the Rails.
+
+    assert(test, "Failure message.")
+    assert_block
+    assert_equal(expected, actual)
+    assert_in_delta(expected_float, actual_float, 2 ** -20)
+    assert_instance_of(ExpectedClass, actual_instance)
+    assert_kind_of(ExpectedKind, actual_instance)
+    assert_match(/expected_pattern/, actual_string)
+    assert_nil(instance)
+    assert_no_match(/unexpected_pattern/, actual_string)
+    assert_not_equal(unexpected, actual)
+    assert_not_nil(instance)
+    assert_not_same(unexpected, actual)
+    assert_nothing_raised(Exception) {  }
+    assert_nothing_thrown {  }
+    assert_operator(left, :operator, right)
+    assert_raise(Exception) {  }
+    assert_raises
+    assert_same(expected, actual)
+    assert_send([object, :message, args])
+    assert_throws(:expected) {  }
+    flunk
+    
+Note: Introducing every method in one day is touch. We can split them into two or three days. We are going to have two or three test files and implementation files that introduce every assertion.
+
+TODO: Explain each method one by one.
+TODO: Write sample files using these methods.
+TODO: Add a link to core course tutorial about exception for review
+TODO: Add a link to core course tutorial about eql? and equal? for review
+
+## Pass, Fail and Error
+
+TODO: make sure there are two kinds of failure. if an assertion fails, that's fail. If, for example, a test file has syntax error, you get an error.
+
+
+## Setup and Teardown
+
+TODO: write here
