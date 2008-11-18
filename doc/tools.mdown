@@ -9,9 +9,9 @@ TODO: This is just a memo rather than part of the textbook.
 
 ## ZenTest
 
-* testing on steroids
+* Testing on steroids
 * <http://www.zenspider.com/ZSS/Products/ZenTest/>
-* Comes tih zentest, unit\_diff, autotest, Test::Rails
+* Comes with zentest, unit\_diff, autotest, Test::Rails
 
 ## test/spec
 
@@ -21,7 +21,11 @@ TODO: This is just a memo rather than part of the textbook.
 ## spec/unit
 
 * SpecUnit is an extension to Test::Unit that allows tests to be grouped into contexts. The idea of contexts comes from rSpec, which is a BDD framework for Ruby. rSpec is a great testing framework, but I built SpecUnit out of the desire to make use of tools already in existence for Test::Unit and to provide a lightweight means of making use of contexts.
-* http://spec-unit.rubyforge.org/
+* <http://spec-unit.rubyforge.org/>
+
+## Shoulda
+
+TODO: Write explanation and links to homepage here.
 
 ## flay
 
