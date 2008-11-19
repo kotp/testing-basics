@@ -18,6 +18,13 @@ TODO: This is just a memo rather than part of the textbook.
 * <http://test-spec.rubyforge.org/test-spec/>
 * test/spec layers an RSpec-inspired interface on top of Test::Unit, so you can mix TDD and BDD (Behavior-Driven Development). test/spec is a clean-room implementation that maps most kinds of Test::Unit assertions to a `should’-like syntax.
 
+## Bacon
+
+* <http://www.ruby-forum.com/topic/137928>
+* a small RSpec clone.
+
+<!-- TODO: Is this a rewrite of test/spec? Written by the same person. Can't find a good informaiton source. -->
+
 ## spec/unit
 
 * SpecUnit is an extension to Test::Unit that allows tests to be grouped into contexts. The idea of contexts comes from rSpec, which is a BDD framework for Ruby. rSpec is a great testing framework, but I built SpecUnit out of the desire to make use of tools already in existence for Test::Unit and to provide a lightweight means of making use of contexts.
