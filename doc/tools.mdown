@@ -32,7 +32,8 @@ TODO: This is just a memo rather than part of the textbook.
 
 ## Shoulda
 
-TODO: Write explanation and links to homepage here.
+* he Shoulda gem makes it easy to write elegant, understandable, and maintainable Ruby tests. Shoulda consists of test macros, assertions, and helpers added on to the Test::Unit framework. It’s fully compatible with your existing tests, and requires no retooling to use.
+* <http://github.com/thoughtbot/shoulda/tree/master>
 
 ## flay
 
