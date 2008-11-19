@@ -79,6 +79,18 @@ TODO: Write explanation and links to homepage here.
 * <http://github.com/kevinclark/dust/tree/master>
 * Dust is intended to be a customizable, programmable, static checker for Ruby. I’ve been focusing on getting basic checks working, but there should probably be a script to actually run against a codebase sooner than later, and then reporting code.
 
+## Mocha
+
+TODO: Write here.
+
+## Flex Mock
+
+TODO: Write here.
+
+## RR (Double Ruby)
+
+TODO: Write here.
+
 ## RSpec
 
 * <http://rspec.info/>
