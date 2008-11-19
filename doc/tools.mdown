@@ -11,7 +11,7 @@ TODO: This is just a memo rather than part of the textbook.
 
 * Testing on steroids
 * <http://www.zenspider.com/ZSS/Products/ZenTest/>
-* Comes with zentest, unit\_diff, autotest, Test::Rails
+* Comes with a) zentest, b) unit\_diff, c) autotest, d) Test::Rails
 
 ## test/spec
 
@@ -32,7 +32,6 @@ TODO: This is just a memo rather than part of the textbook.
 
 * <http://ruby.sadi.st/Flay.html>
 * Flay analyzes ruby code for structural similarities. Differences in literal values, names, whitespace, and programming style are all ignored. Code that flay reports as similar is a good candidate for refactoring.
-
 
 ## flog
 
@@ -67,6 +66,11 @@ TODO: This is just a memo rather than part of the textbook.
 
 * <http://github.com/martinjandrews/roodi/tree/master>
 * Roodi stands for Ruby Object Oriented Design Inferometer.  It parses your Ruby code and warns you about design issues you have based on the checks that is has configured.
+
+## Rufus
+
+* <http://rufus.rubyforge.org/rufus-treechecker/files/README_txt.html>
+* Rufus by John Mettraux allows to check Ruby for unwanted or unsafe code. The Rufus library allows to check some Ruby source code before loading it. Eg. loading a Ruby file that consists of a single line like exit is probably a bad idea. The library can be configured with custom patterns of code to be excluded. 
 
 ## dust
 
