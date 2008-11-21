@@ -1,85 +1,84 @@
 # Draft on the course schedule
 
-TODO: Takaaki doesn't know ZenTest very well.
+TODO: Where do we introduce ZenTest (zentest, unit\_diff and autotest)?
 
 NOTE: Avoided SpecUnit. test/spec is more popular. Even merb supports it. The last update of SpecUnit is in 2006.
 
-NOTE: Mock and Stub are not covered. Maybe we can include them. Or we can save them for another course.
+## Lesson 1: Concepts on testing: What is testing? (1 day)
 
-## Concepts on testing: What's testing? (Day 1)
-
-### Levels
-
-* unit testing
-* functional testing
-* integration testing
-* system testing
-* system integration testing
-
-### Other kinds of testing
-
+* testing levels (unit testing / functional testing / integration testing / system testing / system integration testing)
+* quality assurance
 * regression testing
-* black box testing vs white box testing(including code coverage)
+* black box testing vs. white box testing
+* verification and validation
+* usability testing
+* alpha/beta and stable/unstable
+* Do we still need to debug?
 
 ### Quiz for vocabs
 
+* Checks students understanding of basic vocabulary.
+
 ### Discussion
 
-Some questions to make students to think. Give some open questions.
+* Some open-ended questions. Being prepared in the forum.
 
-* Why are you interested in learning testing?
-* TODO: More questions
-
-## TDD (Day 2)
+## Lesson 2: TDD(Test-Driven Development) (1 day)
 
 * Why we test? What's the benefit of test-fisrt vs test-later?
-* Do we still need to debug?
-* Why we write test first?
-* What's KISS?
-* What's YAGNI
-* What's refacotor? When do you do that?
-* http://rubylearning.org/class/mod/forum/discuss.php?d=1359&parent=21103
-* Introduce `rubydoctest`
+* Why do we write test first?
+* Green, Red, Refactor.
+* What's YAGNI, KISS? 
+* What's refacotor? Refactor with TDD vs. Refactor without TDD?
+* <http://rubylearning.org/class/mod/forum/discuss.php?d=1359&parent=21103>
+* Introduce `rubydoctest` (TODO: We may move this to later.)
 * EXERCISES that use `rubydoctest`
   
-## Testing in Ruby (Test::Unit) (Day 3, 4, 5)
+## Lesson 3: Writing Assertions with Test::Unit (3 days)
 
-* Introduce Test::Unit and its history. Why is in Standard Library.
+### The framework
+
+* Introduce Test::Unit and its history. Why is it in Standard Library?
 * Test::Unit is xUnit compatible.
+
+### Assertions
+
 * <http://www.ruby-doc.org/stdlib/libdoc/test/unit/rdoc/classes/Test/Unit.html>
 * What's assertion?
 * Explain 1/3 of the assert mehtods
 * EXERCISES using the methods learned
-* Review eql? and equel? in Ruby
+* Review eql? and equel? in Ruby <http://rubylearning.com/satishtalim/ruby_summary3.html>, <http://rubylearning.com/satishtalim/more_on_strings.html>
 * Explain 1/3 of the assert methods
 * EXERCISES using the methods learned
-* Review exceptions in Ruby
+* Review exceptions in Ruby <http://rubylearning.com/satishtalim/ruby_exceptions.html>
 * Explain the rest of the assert methods.
 * EXERCISES using the methods learned
 * OPTIONAL: Some methods only available in Rails
 
-## Solving TDD problems 5 days (Day 6, 7, 8, 9, 10)
+## Solving TDD problems (5 days)
 
 * Introduce `setup` and `teardown`.
 * Solve the TDD problems. Maybe 2 or 3 problems. <http://sites.google.com/site/tddproblems/>
 * Introduce `rcov` to check if the user's code coverage is perfect or not.
 
-## test/spec (Day 11, 12)
+## test/spec (2 days)
 
 * Introduce test/spec
 * DISCUSSION on why people some people prefer "spec"
 * DISCUSSION on testing vs behavior
 * EXERCISES. Use test/spec to solve one of the few problems you solved in TDD problems
 * <http://rubylearning.org/class/mod/forum/discuss.php?d=1359&parent=21048>
+* DISCUSSION: What are limitaions of Test::Unit?
 
-## Other tools (Day 13)
+## Other tools (1 day)
 
-* `roodi`, `reek`, `flog` to help refactor
-* Do the tool help you testing?
+* `roodi`, `reek`, `flog` and `heckle` to help refactor
+* Are the tool helpful?
 * Have you installed successfully?
 * Do you understand how to read the output?
+* Do we need to follow the tools strictly? 
 
-## Further directions (Finaly Day, Day 14)
+## Further directions (1 day)
 
 * Ask users what you think about testing now.
 * What's your percepton about testing now?
