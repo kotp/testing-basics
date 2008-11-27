@@ -55,10 +55,28 @@ pico .autotest
 require 'autotest/growl'
 require 'autotest/redgreen'
 ctrlO
+return
 ctrlX
 
 
-You may also put it in your home folder, but then you will have the same plugins for all projects.
+You may also put it in your home folder, but then you will have the same plugins for all projects. Or mix both techniques, a minimal .autotest file in your home folder, and another one more dedicated in the project folder, the latter will override the former for that particular project.
+
+This will launch growl and ZenTest redgreen plugin.
+
+You may also use the redgreen plugin, in this case use:
+
+pico .autotest
+require 'autotest/growl'
+require 'redgreen/autotest'
+ctrlO
+return
+ctrlX
+
+The difference between both redgreen plugin is that the one provided by Zentest has just a line of red or green equal signs to signal success or failure, while the redgreen plugin one colorises the word failure or success in red or green.
+
+You may eventually override the constants in plugins so that they give you another colors and another signs.
+
+Notice that the list of plugins available to Zentest is provided in the example_dot_autotest.rb file inside the Zentest plugin installation folder.
 
 6 - Launch autotest
 
