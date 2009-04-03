@@ -1,7 +1,7 @@
 Authors
 ======================
-** Takaaki
- Soleone
- KOTP
- Migane
++ Takaaki
++ Soleone
++ KOTP
++ Migane
 
